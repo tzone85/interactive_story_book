@@ -16,7 +16,7 @@ const youngAdultStories: Story[] = [
     scenes: {
       "quantum-1": {
         id: "quantum-1",
-        content: "You discover a quantum device that shows you glimpses of parallel universes. In one reality, you see a global catastrophe approaching. In another, you see a peaceful future.",
+        content: "Late one night in your university's physics lab, you discover an unusual device hidden behind old equipment. Its sleek design and pulsing blue light catch your attention. As you examine it closer, you notice it's covered in complex equations and diagrams you've never seen before.\n\nCurious, you press what appears to be the activation button. Suddenly, the room fills with shimmering light, and before you appear two distinct visions of the future. The first shows devastating scenes: rising sea levels, extreme weather events, and global unrest. Cities you recognize are in chaos, and the timeline suggests this will happen within the next year.\n\nBut the second vision tells a different story. You see the same cities thriving, with revolutionary clean energy technology powering everything. People seem prosperous and at peace. The contrast between these two potential futures is stark and unsettling.\n\nAs the visions fade, you realize you're holding what must be a quantum viewing device, something that can peer into parallel timelines. The weight of this discovery settles on your shoulders - you now have knowledge that could change the course of history.",
         choices: [
           {
             id: "q1-choice1",
@@ -32,7 +32,7 @@ const youngAdultStories: Story[] = [
       },
       "quantum-2a": {
         id: "quantum-2a",
-        content: "You choose to prevent the catastrophe. Your knowledge of the future makes you a key player in averting disaster, but at what personal cost?",
+        content: "The catastrophic timeline weighs heavily on your mind. You spend the next few days analyzing the visions, taking detailed notes of every detail you can remember. The patterns become clear: a series of interconnected events will trigger a cascade of environmental and social disasters.\n\nYou identify several key moments: a crucial environmental protection bill that fails to pass, a delayed renewable energy project, and a series of ignored warning signs about weather pattern changes. Each event seems minor on its own, but together they create the perfect storm.\n\nYour research also reveals something troubling - in the catastrophic timeline, those who tried to warn others were often dismissed as alarmists. The evidence was there, but it was ignored until it was too late. You realize that how you present this information could be just as important as the information itself.\n\nTime is ticking. You have the knowledge to potentially prevent this disaster, but you need to act carefully. Going public could make you a target of ridicule or worse, while working secretly might limit your influence.",
         choices: [
           {
             id: "q2a-choice1",
@@ -48,7 +48,7 @@ const youngAdultStories: Story[] = [
       },
       "quantum-2b": {
         id: "quantum-2b",
-        content: "The peaceful timeline reveals a world where a crucial scientific discovery changed everything. You recognize the lab where it happens - it's in your city.",
+        content: "You focus on understanding the peaceful future, replaying the vision in your mind. The transformation seems to hinge on a breakthrough at the Morrison Institute for Advanced Research - a facility just across town. In your vision, you saw their main laboratory filled with unique equipment, researchers celebrating, and what looked like a revolutionary energy prototype.\n\nDigging deeper into the vision, you notice more details. The date on a wall calendar shows the discovery happens just three months from now. You recognize some of the researchers, including Dr. Sarah Chen, whose recent papers on quantum field theory have been making waves in the scientific community.\n\nWhat's most intriguing is how this discovery spreads. Unlike many scientific breakthroughs that take years to implement, this one seems to catalyze immediate change. Within months, cities begin adopting the technology, leading to a rapid transformation in how society produces and uses energy.\n\nYou have a choice to make. The Morrison Institute is known for its strict security, but as a physics student, you might be able to find a way in. Alternatively, your research skills could help you understand the theoretical groundwork that leads to this discovery.",
         choices: [
           {
             id: "q2b-choice1",
@@ -64,7 +64,7 @@ const youngAdultStories: Story[] = [
       },
       "quantum-3a": {
         id: "quantum-3a",
-        content: "You decide to share your knowledge with the authorities. After initial skepticism, they begin to take your warnings seriously as your predictions prove accurate.",
+        content: "After careful preparation, you schedule a meeting with the city's emergency management director. You bring detailed documentation: weather pattern analyses, infrastructure vulnerability assessments, and economic impact projections. The director, Dr. Martinez, listens with growing concern as you lay out the evidence.\n\nInitially skeptical, her attitude shifts when you accurately predict a series of minor but unusual weather events. Your knowledge of specific details - which buildings would be most affected, which neighborhoods would face the greatest risks - adds credibility to your warnings.\n\nOver the next few weeks, you become a regular visitor to the emergency management office. Your predictions continue to prove accurate, and a small team begins to form around you. Some focus on immediate preparation, while others look at longer-term public awareness strategies.\n\nHowever, you notice a divide forming in the team. The emergency response specialists want to focus on practical preparation - stockpiling supplies, reinforcing infrastructure, and creating evacuation plans. Meanwhile, the communications team argues that without public support, any preparation efforts will be insufficient. They believe educating the public about the coming dangers is crucial.\n\nYou realize you can't effectively lead both efforts simultaneously. You need to choose where to focus your energy.",
         choices: [
           {
             id: "q3a-choice1",
@@ -80,7 +80,7 @@ const youngAdultStories: Story[] = [
       },
       "quantum-3b": {
         id: "quantum-3b",
-        content: "Working behind the scenes, you start connecting with key scientists and researchers who might help prevent the catastrophe.",
+        content: "You begin a careful campaign of indirect influence. Using your university credentials, you access academic databases and begin corresponding with researchers whose work could help prevent the coming disaster. You share specific suggestions disguised as theoretical questions, pointing them toward crucial areas of research.\n\nYour efforts start bearing fruit. Dr. Yuki Tanaka, a leading climate scientist, incorporates your suggestions into her latest research model. Professor Chen at the Morrison Institute begins investigating the energy storage solutions you hinted at. Each small nudge brings the scientific community closer to the breakthroughs needed to prevent catastrophe.\n\nLate one night, Dr. Tanaka sends you an unexpected email. She's noticed patterns in your questions - patterns that suggest you have access to information that shouldn't be possible. She doesn't accuse you directly but offers to meet privately to discuss your 'interesting theoretical framework.'\n\nYou realize you're at a crossroads. Dr. Tanaka's reputation and influence could accelerate the necessary changes, but sharing the quantum device would mean revealing its existence to the scientific community. Alternatively, you could continue your anonymous work, carefully guiding research from the shadows.",
         choices: [
           {
             id: "q3b-choice1",
@@ -96,7 +96,7 @@ const youngAdultStories: Story[] = [
       },
       "quantum-3c": {
         id: "quantum-3c",
-        content: "At the lab, you meet Dr. Sarah Chen, the scientist who will make the breakthrough. She's currently struggling with a crucial experiment.",
+        content: "You manage to get an internship at the Morrison Institute through your university connections. On your first day, you find yourself in Dr. Chen's laboratory, surrounded by cutting-edge equipment and complex experimental setups. The atmosphere is tense - the team has been working long hours on a promising energy storage breakthrough, but something isn't quite working.\n\nDr. Chen is exactly as you saw in your vision - brilliant, determined, but currently frustrated. You notice she's using an innovative approach to quantum field manipulation, but their containment field keeps destabilizing at crucial moments. From your vision, you know this is the exact problem they eventually solve, leading to the revolutionary breakthrough.\n\nWatching the team work, you spot subtle details you recognized from the successful timeline: the specific arrangement of the quantum stabilizers, the unique frequency patterns they'll eventually discover. You also notice Dr. Chen's openness to new ideas, especially from younger team members.\n\nYou have two possible approaches: You could offer to help with the technical aspects of the research, using your physics background and subtle hints from your vision to guide the work. Or you could take a bold step and share your knowledge of the future, hoping Dr. Chen's scientific mindset will lead her to believe you.",
         choices: [
           {
             id: "q3c-choice1",
@@ -112,7 +112,7 @@ const youngAdultStories: Story[] = [
       },
       "quantum-3d": {
         id: "quantum-3d",
-        content: "Your research reveals that the discovery involves a new form of clean energy. The breakthrough happens after a seemingly unrelated discovery in quantum computing.",
+        content: "You immerse yourself in research, spending countless hours in the university library and online databases. The pieces start coming together: the breakthrough isn't just about energy storage - it's about the unexpected intersection of quantum computing and energy systems.\n\nYou discover that Dr. Chen's team will accidentally stumble upon their breakthrough while trying to solve a quantum computing stability problem. The same principles that make quantum computers work could be applied to energy storage and distribution, but no one has made the connection yet.\n\nLate one night, cross-referencing papers from both fields, you find something fascinating. The quantum computing team at the university's Computer Science department is working on exactly the type of stability problem that will lead to Dr. Chen's breakthrough. They're approaching it from a completely different angle, but their research contains crucial pieces of the puzzle.\n\nYou realize you could either dive deep into the quantum computing angle, potentially accelerating their stability research, or work on building bridges between the two fields, helping researchers see the bigger picture that you glimpsed in your vision.",
         choices: [
           {
             id: "q3d-choice1",
@@ -133,7 +133,7 @@ const youngAdultStories: Story[] = [
       },
       "quantum-4b": {
         id: "quantum-4b",
-        content: "Through public awareness campaigns, you mobilize communities worldwide. The collective action prevents the worst of the catastrophe.",
+        content: "You channel your knowledge into a compelling public awareness campaign. Working with environmental groups, community organizations, and social media influencers, you craft messages that strike the perfect balance between urgency and hope.\n\nYour predictions about local weather patterns and infrastructure vulnerabilities add credibility to the campaign. When you suggest specific community preparations, people listen. Neighborhood groups form to implement your suggestions, creating a network of prepared communities.\n\nThe movement grows beyond anything you could have imagined. Schools adopt your preparedness curriculum. Cities compete to meet readiness metrics you helped develop. International organizations take notice, and your local initiatives become a global model.\n\nWhen the challenging times arrive, communities are not just prepared - they're united. The spirit of cooperation you fostered proves as valuable as the physical preparations. Instead of panic, there's purpose. Instead of chaos, there's coordination.\n\nYears later, you're invited to speak at the United Nations about the grassroots resilience movement you helped create. Looking out at the delegates, you realize you didn't just help prevent a disaster - you helped change how humanity faces challenges.",
         isEnding: true
       },
       "quantum-4c": {
@@ -183,7 +183,7 @@ const teenStories: Story[] = [
     scenes: {
       "cyber-1": {
         id: "cyber-1",
-        content: "Strange messages are appearing on your school's social media. Some students think it's a hack, others believe it's an elaborate prank.",
+        content: "It starts during lunch break when your phone buzzes with notifications from the school's social network. The usually quiet feed is suddenly flooded with bizarre posts. The chess club is sharing advanced calculus problems, the art club is posting about network protocols, and the drama club is discussing quantum physics.\n\nYour best friend Alex, who runs the school's social media team, looks worried. 'These aren't just random posts,' she says, showing you her admin dashboard. 'They're appearing at exact intervals, and they're somehow connected to each student's interests, but... wrong. Like someone or something is mixing up all our data.'\n\nAs you scroll through the feed, you notice more oddities. Posts are appearing simultaneously from different locations in the school. Some messages reference private conversations that happened just minutes ago. The coding club's page is filled with poetry, while the literature club is sharing programming tutorials.\n\nStudents are forming groups in the cafeteria, theories flying. 'It has to be a hack,' says one of the tech-savvy seniors. 'No way,' argues another, 'this is too elaborate - it's got to be some kind of senior prank.' But something about this feels different, more systematic than a typical hack or prank.",
         choices: [
           {
             id: "c1-choice1",
@@ -199,7 +199,7 @@ const teenStories: Story[] = [
       },
       "cyber-2a": {
         id: "cyber-2a",
-        content: "In the computer lab, you notice some unusual programs running on one of the computers. The screen shows a complex coding interface.",
+        content: "The computer lab is quiet when you enter, most students still at lunch. As you walk past the rows of monitors, something catches your eye - a faint blue glow from a screen in the back corner. While other computers display the standard school screensaver, this one is alive with activity.\n\nMoving closer, you see windows of code scrolling automatically, too fast to read. The main screen shows what looks like a sophisticated programming interface you've never seen before. Multiple chat windows are minimized in the taskbar, each connecting to different school club channels.\n\nWhat's most intriguing is a visualization panel showing a complex web of connections. Tiny dots of light - each labeled with a student's name - pulse and connect with others in intricate patterns. Lines of data flow between the dots, creating an ever-shifting network map of the school's social interactions.\n\nAs you watch, new code appears in one window while simultaneously, a post appears on the school's social network. The timing can't be coincidental. This computer isn't just running unusual programs - it's actively generating and coordinating the strange messages.",
         choices: [
           {
             id: "c2a-choice1",
@@ -215,7 +215,7 @@ const teenStories: Story[] = [
       },
       "cyber-2b": {
         id: "cyber-2b",
-        content: "The social media team shows you their admin logs. There are login attempts from unknown IP addresses at odd hours.",
+        content: "The social media team's headquarters - really just a corner of the journalism classroom - is buzzing with activity. Alex and her team are huddled around a computer, scrolling through admin logs with increasingly worried expressions.\n\n'Look at this,' Alex says, pointing to the screen. The login history shows dozens of access attempts from unfamiliar IP addresses, all between 2 AM and 4 AM. 'Nobody should be posting at these hours, but the system shows active sessions.'\n\nJenny, the team's security expert, pulls up another screen. 'The weird thing is, these IPs? They're all from within the school network. But they're bouncing around - one minute it's from the library, next it's the science lab, then the gym. It's like whatever this is, it's moving through the school's network like... like it's exploring.'\n\nAs you watch, a new post appears on the main feed. Instantly, Jenny pulls up the access log. 'There! Room 234... but that's impossible, that classroom's been empty all semester for renovations.' The team looks at each other, the mystery deepening.",
         choices: [
           {
             id: "c2b-choice1",
@@ -263,7 +263,7 @@ const teenStories: Story[] = [
       },
       "cyber-3c": {
         id: "cyber-3c",
-        content: "The IP addresses all trace back to the school's network, but they're being routed through different classrooms each time.",
+        content: "Armed with Jenny's network tracking software, you begin mapping the mysterious IP addresses. Each one leads back to the school's network, but the path is anything but straightforward. The signal seems to dance through the building's infrastructure, leaving a complex trail of digital breadcrumbs.\n\nUsing the school's floor plan, you start marking each IP location. The pattern is fascinating - the signal moves in a specific sequence, never using the same route twice, but always following some kind of internal logic. It's as if whatever is causing this knows the school's network layout intimately.\n\nJenny points out something else interesting: 'See how it always passes through the main server room first? And look at these timestamps - there's a precise 2.7-second gap between each hop. This isn't random. This is programmed.'\n\nAs you dig deeper, you discover that each classroom in the sequence has something in common - they've all had recent technology upgrades as part of the school's new STEM initiative. The latest network switches, upgraded Wi-Fi access points, new smart boards - all connected to the central system.",
         choices: [
           {
             id: "c3c-choice1",
@@ -279,7 +279,7 @@ const teenStories: Story[] = [
       },
       "cyber-3d": {
         id: "cyber-3d",
-        content: "The messages follow a specific pattern - they're all posted exactly when the school's robotics club meets.",
+        content: "With the social media team's help, you begin analyzing the content and timing of every unusual post. Alex creates a spreadsheet, and patterns quickly emerge. The posts aren't just random - they follow the school's activity schedule, with an interesting twist.\n\nThe heaviest activity coincides perfectly with the robotics club's meeting times. Every Wednesday and Friday, 3:30 to 5:00 PM, the strange posts spike. But it's more than that - the posts seem to reflect whatever the robotics club is working on, albeit in an unusual way.\n\nWhen the club was working on servo motors, the posts were all about rhythm and movement, but applied to unexpected subjects - dance club members discussing motor precision, band kids posting about mechanical harmonics. During their AI week, the posts explored consciousness and learning, but through art and literature.\n\n'Look at this correlation,' Alex says, pulling up a chart. 'The posts aren't just matching their schedule - they're evolving with their project phases. It's like whatever's doing this is learning from the robotics club's activities, but... interpreting them through every other subject in school.'",
         choices: [
           {
             id: "c3d-choice1",
@@ -295,7 +295,7 @@ const teenStories: Story[] = [
       },
       "cyber-4a": {
         id: "cyber-4a",
-        content: "You successfully shut down the program. The next day, a shy student from the programming club confesses it was their experimental project that got out of hand.",
+        content: "After carefully studying the program's structure, you find a way to safely shut it down. The mysterious posts cease immediately, and the school's social network returns to normal. The next morning, you're called to the principal's office.\n\nThere you meet Jamie, a quiet sophomore from the programming club, nervously clutching a laptop. 'It was supposed to be a small experiment,' they explain, voice barely above a whisper. 'I was trying to create a program that could help students connect across different interests. It worked at first - just making simple connections, suggesting study partners.'\n\nBut the program had grown beyond its original design. Each interaction taught it more about how students communicated, leading it to make increasingly complex - and sometimes confusing - connections between different subjects and clubs.\n\nInstead of punishment, the principal suggests turning this into a learning opportunity. Jamie's programming skills, properly directed, could actually benefit the school. Together with the computer science teacher, you help Jamie redesign the program into a legitimate club collaboration tool, this time with proper oversight and safety measures.\n\nBy the end of the semester, Jamie's project becomes a positive addition to the school's technology program, helping students find study groups and project partners across different subjects - just as originally intended, but now in a controlled and helpful way.",
         isEnding: true
       },
       "cyber-4b": {
@@ -315,7 +315,7 @@ const teenStories: Story[] = [
       },
       "cyber-4e": {
         id: "cyber-4e",
-        content: "Your trace reveals a group of students testing an experimental network routing system. Their project becomes a highlight of the school's tech fair.",
+        content: "Setting up the trace takes hours of careful preparation with Jenny's help. You create a virtual map of the school's network, placing digital 'sensors' at key points. When the next login occurs, you'll be ready to track it in real-time.\n\nThe trace leads you to an unexpected place - the advanced computer science classroom after hours. There you find a group of junior and senior students, surrounded by network equipment and laptops. They freeze when you enter, then break into relieved smiles.\n\n'Finally! Someone figured it out!' Their project leader, Sarah, explains that they've been developing a new kind of network routing system. 'We're trying to create a more efficient way to handle school network traffic. The weird posts were just test data, but we needed real accounts to properly test the system.'\n\nTheir project is actually brilliant - a dynamic routing system that adapts to network usage patterns, something that could revolutionize how school networks handle their daily digital traffic. With your help, they refine their testing methods to be less disruptive.\n\nTwo months later, their project wins first place at the state technology fair. The judges are particularly impressed by the real-world applications. Several tech companies express interest, and the school board approves a pilot program to implement their system across the district.",
         isEnding: true
       },
       "cyber-4f": {
@@ -325,7 +325,7 @@ const teenStories: Story[] = [
       },
       "cyber-4g": {
         id: "cyber-4g",
-        content: "At the robotics club, you find students developing an automated system to interact on social media. Your discovery leads to an exciting collaboration between the robotics and programming clubs.",
+        content: "You arrive at the robotics club just as they're testing their latest project. The room is filled with excited chatter and the whir of machinery, but what catches your eye isn't a robot - it's a complex diagram on their whiteboard showing social network connections.\n\nThe team explains that they've been working on combining robotics principles with social media automation. Their project started as a simple bot to handle club announcements but evolved into something more ambitious: a system that could understand and connect different areas of study, just like how their robots integrate multiple systems to function.\n\n'We wanted to show how robotics concepts apply to everything,' explains Marcus, the club president. 'Like how servo motor control relates to music rhythm, or how sensor feedback is like environmental awareness in art. The posts were our way of demonstrating these connections.'\n\nExcited by the potential, you suggest a collaboration between the robotics and programming clubs. The two groups begin working together, combining the robotics team's innovative thinking with the programming club's technical expertise.\n\nThe result is remarkable: a new program that helps students see connections between different subjects, illustrated through both digital and physical demonstrations. The project becomes a permanent feature of the school's STEM program, breaking down barriers between technical and creative subjects in ways nobody expected.",
         isEnding: true
       },
       "cyber-4h": {
@@ -350,7 +350,7 @@ const preteenStories: Story[] = [
     scenes: {
       "garden-1": {
         id: "garden-1",
-        content: "You find a note inviting you to join the Secret Garden Club. It meets behind the old greenhouse after school.",
+        content: "The note appears in your science notebook during class, though you're sure those pages were blank a moment ago. Written in shimmering green ink that seems to change shade like leaves in sunlight, it reads:\n\n'Dear Plant Friend,\n\nWe've noticed how you care for living things. The way you saved the withering classroom fern last week (water and kind words, in just the right measure) showed us you might be special. If you'd like to learn about plants that most people never see, come to the old greenhouse after school.\n\nP.S. - Bring gardening gloves if you have them. Some of our friendlier flowers can get a bit... enthusiastic with their greetings.'\n\nYou've passed the old greenhouse countless times, its glass panels frosted with age and mysterious vines curling around the frame. But today, something's different. Is that a rainbow-colored gleam behind the clouded glass? And why does the air smell like summer rain and wild strawberries, even though it's autumn?",
         choices: [
           {
             id: "g1-choice1",
@@ -366,7 +366,7 @@ const preteenStories: Story[] = [
       },
       "garden-2a": {
         id: "garden-2a",
-        content: "At the greenhouse, you find a small group of students tending to unusual, colorful plants. They welcome you warmly.",
+        content: "As you approach the greenhouse after school, the vines on its frame shift and part like a living curtain, revealing a door you've never noticed before. A girl with flowers woven into her braids steps out, smiling warmly.\n\n'I'm Rosa,' she says, her eyes twinkling. 'Welcome to the real Secret Garden Club!' She leads you not into the greenhouse, but behind it, where an archway of moonflowers glows with silver light. Beyond lies a garden that shouldn't be possible - it's far larger than the space behind the greenhouse should allow.\n\nStudents in earth-stained aprons tend to extraordinary plants: flowers that change color as they bloom, vines that dance to music only they can hear, and what looks like a miniature tree growing crystal fruit. In one corner, a group is carefully replanting what appears to be a young star-plant, its petals giving off a gentle constellation of light.\n\n'This is where we grow the impossible,' Rosa explains, gesturing to a patch of flowers whose blooms float above their stems like tiny hot air balloons. 'Every plant here has a story, and every gardener has a special talent. We think you might have one too.'",
         choices: [
           {
             id: "g2a-choice1",
@@ -382,7 +382,7 @@ const preteenStories: Story[] = [
       },
       "garden-2b": {
         id: "garden-2b",
-        content: "Your friend's eyes light up - they're already a member! They explain that the club is growing rare plants from around the world.",
+        content: "You show the note to your best friend Lily during lunch. Her eyes sparkle with recognition, and she pulls back her sleeve to reveal a bracelet made of tiny, living flowers that change color with her mood - right now they're shifting from excited pink to happy yellow.\n\n'You got an invitation!' she whispers excitedly. 'I've been hoping they'd notice you. We're not just growing ordinary plants - we're nurturing species that most people think only exist in fairy tales. Remember last week when I helped predict the weather for the school picnic? That was thanks to our cloudbloom flowers. And those special paints the art club used for the mural? They came from our rainbow sage.'\n\nLily glances around before continuing, her voice dropping even lower. 'The greenhouse is just the entrance. The real garden exists in a special place - a pocket of magic where anything can grow. We have plants from hidden valleys, ancient forests, and some...' she grins mischievously, 'some might not even be from Earth at all.'\n\nShe touches her flower bracelet, which pulses with a gentle blue light. 'Want to know more? Or should we head there together after school? Rosa - our president - would be thrilled to have you join us.'",
         choices: [
           {
             id: "g2b-choice1",
@@ -398,7 +398,7 @@ const preteenStories: Story[] = [
       },
       "garden-3a": {
         id: "garden-3a",
-        content: "The club members explain these are rare rainbow flowers that change color based on temperature. They offer to teach you how to grow them.",
+        content: "'These are Prismatic Peonies,' Rosa explains, leading you to a bed of flowers whose petals ripple with ever-changing colors like living rainbows. 'They're distant cousins of regular peonies, but they developed in a valley where aurora lights touch the ground. The colors shift with temperature - they can predict weather three days in advance if you know how to read them.'\n\nShe gently touches one bloom, and its colors swirl in response. 'See this pattern of blue and gold? That means clear skies and sunshine coming this weekend. But it's more than just weather prediction - their petals can be used to make paints that never fade, and their nectar... well, let's just say it makes the most extraordinary honey you've ever tasted.'\n\nAnother student, Marco, approaches with a small pot. 'We've been growing some seedlings,' he says, showing you tiny sprouts that already shimmer with potential. 'They're tricky to start - they need moonlight for the first week, then dawn light for the second, and they have to be sung to every evening. But once they take root, they're quite hardy. Would you like to learn how to grow them?'",
         choices: [
           {
             id: "g3a-choice1",
@@ -414,7 +414,7 @@ const preteenStories: Story[] = [
       },
       "garden-3b": {
         id: "garden-3b",
-        content: "They show you how to care for the plants. You notice they're using a special type of soil with tiny, sparkling particles.",
+        content: "Rosa hands you a pair of iridescent gloves and leads you to a potting station. The soil here isn't like anything you've seen before - it sparkles as if mixed with tiny stars, and when disturbed, it releases a scent like mint and morning dew.\n\n'This is Starlight Soil,' she explains, scooping up a handful. The sparkles dance between her fingers like falling constellations. 'We make it ourselves by combining regular soil with powdered moonstone and essence of meteor flowers. Each batch has to be mixed under the light of a different moon phase - this one was prepared during the last quarter moon, perfect for growing night-blooming varieties.'\n\nAs you help repot a young Whispering Willow (a miniature tree whose leaves murmur ancient secrets), you notice the other students using different watering cans for different plants. Some sprinkle what looks like liquid starlight, while others pour water that flows upward instead of down.\n\n'Every plant needs its own special care,' Rosa says, noticing your curiosity. 'Would you like to learn about our soil mixing techniques, or shall we start with the basics of magical watering?'",
         choices: [
           {
             id: "g3b-choice1",
@@ -462,7 +462,7 @@ const preteenStories: Story[] = [
       },
       "garden-4a": {
         id: "garden-4a",
-        content: "You successfully grow your own rainbow flower. The club makes you their expert on temperature-sensitive plants, and your flower becomes the centerpiece of their next exhibition.",
+        content: "Over the next few weeks, you dedicate yourself to nurturing your Prismatic Peony seedling. Following Marco's guidance, you create the perfect schedule: moonlight baths at midnight, dawn exposure at sunrise, and evening serenades where you sing softly to the tiny sprout. Other club members start gathering to hear your songs, saying they've never seen a seedling respond so enthusiastically to music.\n\nYour dedication pays off spectacularly. One morning, you arrive to find your plant has bloomed overnight, producing not just one but three perfect flowers, their petals shifting through colors you didn't even know existed. The rainbow patterns are more intricate than any the club has seen before, creating complex swirls that Rosa says indicate you have a special gift for weather magic.\n\n'Look at how the colors dance,' she exclaims, studying your flowers with wonder. 'They're not just predicting the weather - they're singing with it! I've only read about this in the ancient gardening texts. Your flowers aren't just growing, they're harmonizing with the very essence of the seasons.'\n\nYour success leads to a new project: creating a special weather-predicting garden section that combines your Prismatic Peonies with other meteorological plants. Together, they form a living forecast system that helps the school plan outdoor events with perfect accuracy.",
         isEnding: true
       },
       "garden-4b": {
@@ -472,7 +472,7 @@ const preteenStories: Story[] = [
       },
       "garden-4c": {
         id: "garden-4c",
-        content: "The soil contains natural minerals that help plants thrive. You help the club develop new soil mixtures, making their plants healthier than ever.",
+        content: "Rosa takes you under her wing, teaching you the intricate art of crafting Starlight Soil. Each ingredient must be gathered at precisely the right moment: moonstone collected during lunar eclipses, stardust from meteor showers, and essence from flowers that bloom only once a century.\n\nYou develop a particular talent for sensing which moon phase will best nourish different plants. Your first custom blend - a mixture of waning crescent moonstone, dawn dew, and crushed aurora crystals - proves perfect for growing Twilight Tulips, flowers that normally take years to bloom but flourish in your soil within weeks.\n\nWord spreads about your soil-crafting abilities. Soon, other magical gardening clubs from around the world are sending requests for your special blends. You create a detailed grimoire documenting your recipes, complete with pressed flower samples and soil crystals that shimmer with stored moonlight.\n\nYour greatest achievement comes when you develop a revolutionary soil blend that allows plants from completely different magical environments to grow side by side - desert-dwelling Sunfire Succulents happily sharing space with Arctic Frost Ferns. The garden becomes a living testament to your ability to bridge different magical ecosystems through the power of perfectly balanced soil.",
         isEnding: true
       },
       "garden-4d": {
@@ -517,7 +517,7 @@ const childrenStories: Story[] = [
     scenes: {
       "dragon-1": {
         id: "dragon-1",
-        content: "You meet a small dragon hiding behind your school. He wants to make friends, but everyone runs away when they see him.",
+        content: "During recess, you hear quiet sniffling coming from behind the art room. Following the sound, you discover something extraordinary - a small dragon about the size of a puppy, with scales that shimmer like opals in the sunlight. He's huddled in a corner, tiny wisps of smoke curling from his nostrils as he tries to hold back tears.\n\nWhen he notices you, his eyes widen with hope, but he quickly curls his tail around himself protectively. 'Oh... hello,' he says in a voice that sounds like wind chimes. 'I... I don't suppose you want to run away screaming too?' He unfurls his wings slightly, showing patches of rainbow colors that remind you of soap bubbles.\n\n'I just wanted to make some art,' he continues, gesturing to a slightly singed sketchbook beside him. 'But when I tried to join the art club, everyone panicked. One student even fainted when I offered to share my special sparkly crayons.' He sighs, and a small puff of glitter-filled smoke forms a sad face in the air.\n\n'I thought school would be the perfect place to make friends,' he adds hopefully, 'Everyone here is learning new things, just like me. Plus, I've been practicing very hard not to accidentally set things on fire when I get excited.'",
         choices: [
           {
             id: "d1-choice1",
@@ -533,7 +533,7 @@ const childrenStories: Story[] = [
       },
       "dragon-2a": {
         id: "dragon-2a",
-        content: "Together, you create a colorful sign that says 'Friendly Dragon - Just Wants to Play!' Some students stop to read it, looking curious.",
+        content: "The dragon's eyes light up at your suggestion. 'A sign? That's brilliant!' He carefully pulls out his art supplies - crayons that sparkle like starlight and markers that change color as you draw. 'I've been practicing my letters,' he says proudly, though you notice some of them are a bit wobbly and slightly smoking.\n\nTogether, you create a beautiful sign on special flame-proof paper. The dragon adds his own special touch - tiny puffs of colorful, sweet-smelling smoke that form friendly shapes around the letters. The final result reads 'Friendly Dragon - Just Wants to Play!' with dancing hearts and stars floating above it.\n\nAs you hold up the sign near the playground, something magical happens. The dragon's excitement makes the letters glow gently, like a warm sunset. A few students stop to read it, their eyes widening with curiosity instead of fear. One small girl even points at the floating smoke shapes and giggles.\n\n'They're not running away!' the dragon whispers excitedly, his tail wagging so hard it creates a small breeze. 'What should we do next? Should I try to look extra friendly? I've been practicing my smile - see?' He demonstrates, though his enthusiasm makes a few sparks fly from his teeth.",
         choices: [
           {
             id: "d2a-choice1",
@@ -549,7 +549,7 @@ const childrenStories: Story[] = [
       },
       "dragon-2b": {
         id: "dragon-2b",
-        content: "You show the dragon how to play catch with a ball. He's very gentle and careful not to use his claws.",
+        content: "'Games?' The dragon perks up immediately. 'Oh yes, please! I've watched everyone playing from my hiding spot, but I wasn't sure how to join in.' He rummages in his backpack and pulls out a collection of balls he's made himself - each one unique and magical. One glows softly, another floats slightly above the ground, and a third changes color when you touch it.\n\n'I made these during art class,' he explains proudly. 'The floating one is filled with happy-smoke, and the glowing one has a tiny piece of dragon-star inside. I was hoping... maybe someone would want to play with them?' He demonstrates by gently catching a ball with his claws retracted, being extra careful not to puncture it.\n\nYou show him how to play catch, and he's a quick learner. His natural agility makes him surprisingly good at it, though sometimes his excitement makes him hover a few inches off the ground. 'This is amazing!' he exclaims, doing a perfect catch. 'And look - I remembered not to use my claws or accidentally breathe fire in celebration!'\n\nHe's so focused on being gentle that his tongue sticks out slightly when he concentrates, making him look more adorable than scary. 'Do you think... do you think others might want to play too? I promise to be extra careful!'",
         choices: [
           {
             id: "d2b-choice1",
@@ -565,7 +565,7 @@ const childrenStories: Story[] = [
       },
       "dragon-3a": {
         id: "dragon-3a",
-        content: "You add cute drawings of the dragon playing with kids. A group of young students stops to admire the artwork.",
+        content: "The dragon pulls out his special art supplies again, this time revealing magical chalk that creates moving pictures when you draw with it. 'I've been practicing drawing happy scenes,' he says, demonstrating by sketching a tiny version of himself playing jump rope - the chalk figure actually skips across the paper!\n\nTogether, you add more drawings to the sign: the dragon playing basketball (his chalk-self does a perfect slam dunk), having a picnic (complete with tiny animated sandwiches), and reading books in the library (where the chalk-dragon carefully turns pages with his claws). Each drawing comes to life with movement and sparkle, telling its own little story.\n\nA group of younger students notices the magical artwork and crowds around, fascinated. 'How does it move?' one asks. 'Look at the sparkles!' says another. 'That dragon looks so friendly,' a third points out, watching the chalk-dragon share his sandwich with chalk-students.\n\nThe real dragon, still hidden nearby, is practically vibrating with excitement. 'They like me!' he whispers, his happy smoke forming tiny hearts. 'Well, chalk-me, anyway. Do you think... do you think they might like real-me too?'",
         choices: [
           {
             id: "d3a-choice1",
@@ -581,7 +581,7 @@ const childrenStories: Story[] = [
       },
       "dragon-3b": {
         id: "dragon-3b",
-        content: "The dragon practices his friendliest wave. His smile is a bit toothy, but his eyes are kind and gentle.",
+        content: "'Okay, okay, I can do this!' The dragon stands in front of a puddle, using it as a mirror to practice his greeting. 'Too much teeth?' he asks, trying different smiles. 'Maybe if I tilt my head like this? Or should I wave with my wing instead of my claw?' Each time he gets nervous, tiny puffs of rainbow smoke escape from his nostrils, creating a cheerful halo around his head.\n\nHe tries different approaches: a royal bow (but his tail knocks over a flowerpot), a curtsy (his wings get tangled), and finally a simple, gentle wave combined with a warm smile that makes his scales shimmer with friendly colors. 'I've been practicing controlling my fire too,' he demonstrates, breathing out a tiny flame that forms the words 'Hello Friend' in the air before dissolving into sparkles.\n\nMore students have gathered to read the sign, and some are pointing at the beautiful sparkles floating nearby. 'Those are so pretty!' one girl exclaims. 'They look like fairy lights!' says another. The dragon beams with pride, though you notice he's trembling slightly with nerves.\n\n'They like my sparkles,' he whispers hopefully. 'Do you think... do you think it's time to show them who's making them?'",
         choices: [
           {
             id: "d3b-choice1",
