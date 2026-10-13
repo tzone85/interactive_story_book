@@ -15,11 +15,11 @@ test('complete story reading flow', async ({ page }) => {
   await page.getByText(storyTitle).click();
   
   // Verify story content is displayed
-  await expect(page.getByText('You discover a quantum device')).toBeVisible();
+  await expect(page.getByText('Late one night in your university', { exact: false })).toBeVisible();
   
   // Make a choice
   await page.getByText('Focus on preventing the catastrophe').click();
   
   // Verify next scene is displayed
-  await expect(page.getByText('You choose to prevent the catastrophe')).toBeVisible();
+  await expect(page.getByText('The catastrophic timeline weighs heavily on your mind', { exact: false })).toBeVisible();
 });

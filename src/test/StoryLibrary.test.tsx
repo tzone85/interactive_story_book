@@ -1,9 +1,9 @@
-import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import StoryLibrary from '../components/StoryLibrary';
 import { useAppStore } from '../store';
 import { stories } from '../data/stories';
+import { useNarrationSettings } from '../narration/store/narrationSettings';
 
 const mockNavigate = vi.fn();
 
@@ -60,5 +60,16 @@ describe('StoryLibrary', () => {
       fireEvent.click(screen.getByText(firstStory.title));
       expect(mockNavigate).toHaveBeenCalledWith(`/story/${firstStory.id}`);
     }
+  });
+
+  it('lets the reader choose their storyteller before opening a story', () => {
+    render(
+      <BrowserRouter>
+        <StoryLibrary />
+      </BrowserRouter>
+    );
+
+    fireEvent.click(screen.getByRole('radio', { name: /Studio Sam/ }));
+    expect(useNarrationSettings.getState().narratorId).toBe('studio');
   });
 });

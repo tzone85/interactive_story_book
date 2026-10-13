@@ -2,7 +2,34 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        navy: { DEFAULT: '#070C18', 800: '#0D1528', 700: '#142038', 600: '#1E2D4D' },
+        gold: { DEFAULT: '#D4AF37', soft: '#E6CF7A' },
+        emerald: { DEFAULT: '#10B981' },
+        ice: '#FFFFFF',
+      },
+      fontFamily: {
+        display: ['Cinzel', 'Georgia', 'serif'],
+        sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+      },
+      keyframes: {
+        'fade-up': {
+          '0%': { opacity: '0', transform: 'translateY(18px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        'fade-in': { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
+        'pop-in': {
+          '0%': { opacity: '0', transform: 'translateY(12px) scale(0.98)' },
+          '100%': { opacity: '1', transform: 'translateY(0) scale(1)' },
+        },
+      },
+      animation: {
+        'fade-up': 'fade-up 0.9s cubic-bezier(0.22, 1, 0.36, 1) both',
+        'fade-in': 'fade-in 0.25s ease-out both',
+        'pop-in': 'pop-in 0.3s cubic-bezier(0.22, 1, 0.36, 1) both',
+      },
+    },
   },
   plugins: [],
 };
