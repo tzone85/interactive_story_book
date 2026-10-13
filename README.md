@@ -12,6 +12,7 @@ A Progressive Web Application designed to encourage reading through interactive 
   - Pre-teen (9-12): Adventure and nature exploration
   - Children (6-9): Friendship and social learning
 - Reader profiles with personalized story recommendations
+- Stories read aloud by a storyteller you choose, Mama Thuli the Librarian or Studio Sam the Studio Host, voiced locally by [VoiceStudio](https://github.com/debpalash/VoiceStudio) with the browser voice as fallback (see [docs/narration.md](docs/narration.md))
 - Beautiful, responsive UI with Tailwind CSS
 - Comprehensive test coverage with Vitest and Playwright
 
@@ -125,3 +126,24 @@ npm run test:e2e
 ## License
 
 MIT
+
+## Narration
+
+Press **Listen** on any story page. Open **Voice settings** to point the app at your VoiceStudio server, test the connection, pick a voice per storyteller, or turn on automatic reading. If VoiceStudio is not running the browser's own voice reads instead. Setup, architecture and the CORS step for the deployed site are in [docs/narration.md](docs/narration.md).
+
+## Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftzone85%2Finteractive_story_book&env=VITE_VOICESTUDIO_URL&envDescription=Optional%20default%20VoiceStudio%20server%20URL&envLink=https%3A%2F%2Fgithub.com%2Ftzone85%2Finteractive_story_book%2Fblob%2Fmain%2Fdocs%2Fnarration.md)
+
+Manage deployments and environment variables from the [Vercel dashboard](https://vercel.com/dashboard). `vercel.json` already configures the build, SPA routing and headers.
+
+## Scripts
+
+| Command | Does |
+|---|---|
+| `npm run dev` | Dev server on http://localhost:5173 |
+| `npm test` | Unit and component tests |
+| `npm run test:coverage` | Coverage report |
+| `npm run test:e2e` | Playwright end-to-end tests |
+| `npm run lint` | ESLint |
+| `npm run build` | Production build into `dist` |
